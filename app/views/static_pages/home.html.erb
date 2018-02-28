@@ -1,0 +1,15 @@
+<h1>Photo Feed</h1>
+
+<%= form_tag(root_url, method: :get) do %>
+	<%= label_tag :user_name, "User name" %>
+	<%= text_field_tag :user_name %>
+
+	<%= submit_tag "Search" %>
+
+<% end %>
+
+	<% if !@pics.nil? %>
+		<% @pics.each do |photo| %>
+		<%= image_tag photo.url_s %>
+	<% end %>
+<% end %>
