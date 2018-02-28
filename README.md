@@ -1,24 +1,4 @@
-# README
+# Photo-Feed
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+A simple app where you enter in the username of a Flickr account and get to see their public photos.
+This is a project from [The Odin Project - APIs](https://www.theodinproject.com/courses/ruby-on-rails/lessons/apis?ref=lnav) to learn how to use external APIs.
